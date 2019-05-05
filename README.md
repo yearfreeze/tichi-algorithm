@@ -10,3 +10,16 @@ ALibaba TIANCHI global local climate zone(LCZ) image classifier competition
 为了平衡 CPU 和 GPU 的时间耗费，绕过 GIL 全局锁  用多进程方式 完成生产者消费模型 ，提高整个管线效率。
 采用简单加权和 boosting的方式进行模型融合.
 acc=86.4% top3%
+
+ResNet
+
+Tensorflow implementation of
+
+    ResNet-18-34-50-101.
+    ResNet-V2-18-34-50-101.
+
+Prerequisites
+
+    tensorflow 1.9
+    python 2.7 or 3.6
+
